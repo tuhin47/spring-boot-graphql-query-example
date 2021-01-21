@@ -1,0 +1,12 @@
+query {
+    allBooks{
+        isn
+        authors
+        publishedDate
+    }
+    book(id:"123"){
+        isn
+        authors
+        publisher
+    }
+}
