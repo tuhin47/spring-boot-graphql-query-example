@@ -1,9 +1,16 @@
 {
-  "name": "Untitled GraphQL Schema",
+  "name": "Books GraphQL Schema",
   "schemaPath": "../books.graphql",
   "extensions": {
     "endpoints": {
-      "Default GraphQL Endpoint": {
+      "Rest Books": {
+        "url": "http://localhost:8091/rest/books",
+        "headers": {
+          "user-agent": "JS GraphQL"
+        },
+        "introspect": false
+      },
+      "Rest Auth": {
         "url": "http://localhost:8091/rest/books",
         "headers": {
           "user-agent": "JS GraphQL"
