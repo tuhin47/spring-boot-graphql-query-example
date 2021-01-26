@@ -1,4 +1,4 @@
-CREATE TABLE customers (
+/*CREATE TABLE customers (
     id   INTEGER      NOT NULL AUTO_INCREMENT,
     name VARCHAR(128) NOT NULL,
     email VARCHAR(128) NOT NULL,
@@ -22,4 +22,4 @@ CREATE TABLE orders (
     status VARCHAR(20) NOT NULL,
     created TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
     PRIMARY KEY (id)
-);
+);*/
