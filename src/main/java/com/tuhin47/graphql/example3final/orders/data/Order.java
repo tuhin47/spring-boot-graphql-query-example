@@ -1,7 +1,7 @@
 package com.tuhin47.graphql.example3final.orders.data;
 
 import com.tuhin47.graphql.example3final.customers.data.Customer;
-import com.tuhin47.graphql.example3final.products.data.Product;
+import com.tuhin47.graphql.example3final.products.Product;
 import lombok.Data;
 
 import javax.persistence.*;
